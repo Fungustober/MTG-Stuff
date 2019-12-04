@@ -12,7 +12,9 @@ Planeswalker Generator:
 Deck builder:
   Things that cause an error:
     Trying to edit a .dek file that doesn't exist
+    
     Typing a string instead of a number when adding cards to a deck
+    
     Various other things
 
 I reccomend downloading a python compiler to run these programs, as they display quite a bit in the console.
