@@ -24,11 +24,11 @@
 #       # of classes = 43
 #    # of gender categories = 3
 #    # of color combinations = 31
-# 67*43 = 2,881
-# outcome 2: 2,881; Outcome 3: 67; Outcome 4: 43; thus 2,881*67 = 193,027*43 = 8,300,161
-# 8,300,161*2,881 = 23,912,763,841
-# 23,912,763,841*3 = 71,738,291,523
-# 71,738,291,523*31 = 2,223,887,037,210
+# 67 * 43 = 2,881
+# outcome 2: 2,881; Outcome 3: 67; Outcome 4: 43; thus 2,881 * 67 = 193,027 * 43 = 8,300,161
+# 8,300,161 * 2,881 = 23,912,763,841
+# 23,912,763,841 * 3 = 71,738,291,523
+# 71,738,291,523 * 31 = 2,223,887,037,210
 # There are 2,223,887,037,210 possible outcomes.
 # If a unique(not a repeat of previous outcomes) character was generated every second, 
 # it would take 70,518 years and 30 seconds for all of them to generate.
