@@ -37,72 +37,12 @@ import random
 def main():
     charNum = getNum()
     for num in range(charNum):
-        sClassB = calc()
-        sCharB = calc()
-        if sClassB == True and sCharB == True:
-            gender = charGender()
-            race = charRace()
-            raceT =charRace()
-            charClass = getCharClass()
-            charClassT = getCharClass()
-            colors = getColors()
-            print("Character", num+1, "is a", gender, race, raceT, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
-        elif sClassB == True:
-            gender = charGender()
-            race = charRace()
-            charClass = getCharClass()
-            charClassT = getCharClass()
-            colors = getColors()
-            print("Character", num+1, "is a", gender, race, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
-        elif sCharB == True:
-            gender = charGender()
-            race = charRace()
-            raceT =charRace()
-            charClass = getCharClass()
-            charClassT = getCharClass()
-            colors = getColors()
-            print("Character", num+1, "is a", gender, race, raceT, charClass,"who uses the color(s)", colors, "for magic.")
-        else:
-            gender = charGender()
-            race = charRace()
-            charClass = getCharClass()
-            colors = getColors()
-            print("Character", num+1, "is a", gender, race, charClass, "who uses the color(s)", colors, "for magic.")
+        getChar()
     ans = input("Would you like to generate more characters? Yes/No ")
     while ans == "Yes" or ans == "yes":
         charNum = getNum()
         for num in range(charNum):
-            sClassB = calc()
-            sCharB = calc()
-            if sClassB == True and sCharB == True:
-                gender = charGender()
-                race = charRace()
-                raceT =charRace()
-                charClass = getCharClass()
-                charClassT = getCharClass()
-                colors = getColors()
-                print("Character", num+1, "is a", gender, race, raceT, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
-            elif sClassB == True:
-                gender = charGender()
-                race = charRace()
-                charClass = getCharClass()
-                charClassT = getCharClass()
-                colors = getColors()
-                print("Character", num+1, "is a", gender, race, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
-            elif sCharB == True:
-                gender = charGender()
-                race = charRace()
-                raceT =charRace()
-                charClass = getCharClass()
-                charClassT = getCharClass()
-                colors = getColors()
-                print("Character", num+1, "is a", gender, race, raceT, charClass,"who uses the color(s)", colors, "for magic.")
-            else:
-                gender = charGender()
-                race = charRace()
-                charClass = getCharClass()
-                colors = getColors()
-                print("Character", num+1, "is a", gender, race, charClass, "who uses the color(s)", colors, "for magic.")
+            getChar()
         ans = input("Would you like to generate more characters? Yes/No ")
 
 def getNum():
@@ -425,5 +365,38 @@ def getColors():
     elif colorInt >= 116 and colorInt <= 122:
         color = "Green"
     return color
+
+def getChar():
+    sClassB = calc()
+    sCharB = calc()
+    if sClassB == True and sCharB == True:
+        gender = charGender()
+        race = charRace()
+        raceT =charRace()
+        charClass = getCharClass()
+        charClassT = getCharClass()
+        colors = getColors()
+        print("Character", num+1, "is a", gender, race, raceT, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
+    elif sClassB == True:
+        gender = charGender()
+        race = charRace()
+        charClass = getCharClass()
+        charClassT = getCharClass()
+        colors = getColors()
+        print("Character", num+1, "is a", gender, race, charClass, charClassT, "who uses the color(s)", colors, "for magic.")
+    elif sCharB == True:
+        gender = charGender()
+        race = charRace()
+        raceT =charRace()
+        charClass = getCharClass()
+        charClassT = getCharClass()
+        colors = getColors()
+        print("Character", num+1, "is a", gender, race, raceT, charClass,"who uses the color(s)", colors, "for magic.")
+    else:
+        gender = charGender()
+        race = charRace()
+        charClass = getCharClass()
+        colors = getColors()
+        print("Character", num+1, "is a", gender, race, charClass, "who uses the color(s)", colors, "for magic.")
 
 main()
