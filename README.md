@@ -23,4 +23,4 @@ Deck builder:
     
     Various other things
 
-I reccomend downloading a python compiler to run these programs, as they display quite a bit in the console.
+I recommend downloading a python compiler to run these programs, as they display quite a bit in the console.
