@@ -10,7 +10,7 @@ Planeswalker Generator:
   When entering a number, please enter it in as an integer (ex. 5, 6, 8, 10) and not a string (ex. Forty, twenty, nine, three)
 
 Deck builder:
-  Things that caus an error:
+  Things that cause an error:
     Trying to edit a .dek file that doesn't exist
     Typing a string instead of a number when adding cards to a deck
     Various other things
